@@ -1,17 +1,65 @@
-## Running React on Replit
+💰 React Expense Tracker
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+A simple and elegant Expense Tracker web application built using ReactJS and Vite
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+This app allows users to add, view, and track personal expenses with a minimal UI and smooth functionality. Built with beginner-friendly logic and clean component-based architecture.
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+🚀 Features
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+- 📌 Add transactions with a title and amount
+- 🧾 View all transactions in a list
+- 💡 Uses `useState()` and props to manage data
+- 🖼️ Screenshot image of the app for quick preview
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
 
-### Typescript
+🛠️ Tech Stack
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+- Frontend: ReactJS + Vite
+- CSS: Basic styling (can be extended)
+- Deployed on: Replit
+
+
+
+🔗 Live Preview
+
+👉 [Click here to open the app on Replit](https://your-replit-live-link)
+
+
+ 📸 Screenshot
+
+![Screenshot](screenshot.png.jpg)
+
+
+
+
+📁 Project Structure
+react-expense-tracker/
+├── public/
+├── src/
+│ ├── App.jsx
+│ ├── AddTransactionForm.jsx
+├── index.html
+├── package.json
+├── README.md
+├── screenshot.png.jpg
+
+
+
+📦 How to Run Locally
+
+1. Clone this repo  
+   git clone https://github.com/Nallamachkeerthi/react-expense-tracker.git
+
+2. Install dependencies  
+   npm install
+
+3. Run the app  
+   npm run dev
+
+
+ Author
+
+👩🏻‍💻 Keerthi Nallamachu  
+🔗 [GitHub Profile](https://github.com/Nallamachkeerthi)
+
+
